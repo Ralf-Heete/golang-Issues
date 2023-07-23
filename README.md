@@ -121,6 +121,6 @@ To work around this limitation, we can create wrapper functions for methods with
         fmt.Printf("l:'%v'\n", l)
     }
     
-In this workaround, we use a value interface to handle both pointer and non-pointer types. The SetItemWrapper function acts as a wrapper for SetItem, allowing us to call the method on both the pointer and non-pointer types in the interface.
+In this workaround, we use a value interface to handle both pointer and non-pointer types. The SetItemWrapper function acts as a wrapper for SetItem, allowing us to call the method on  the pointer and types in the interface.
 
 Feel free to adjust the template to include more details or explanations specific to your use case. I hope this helps you create the Readme.md for your issue!
