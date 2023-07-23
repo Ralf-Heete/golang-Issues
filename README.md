@@ -64,7 +64,7 @@ To fix this issue, we need to use a pointer to the actual type when implementing
     }
 This time, the code will compile and run without errors, printing "fizz" as expected.
 
-##Workaround
+## Workaround
 
 To work around this limitation, we can create wrapper functions for methods with pointer receivers and call those functions in the interface implementation.
 
